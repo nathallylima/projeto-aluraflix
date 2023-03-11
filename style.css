@@ -1,0 +1,61 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+background-color: #000000;
+opacity: 1;
+background-image:  radial-gradient(#981010 1.05px, transparent 1.05px), radial-gradient(#981010 1.05px, #000000 1.05px);
+background-size: 42px 42px;
+background-position: 0 0,21px 21px;
+  background-position: center top;
+
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+p { 
+  color: white;
+  display: table;
+  float: left;
+  width: 150px;
+  margin: 30px;
+  margin-left: 60px;
+  margin-right: 40px;
+}
+
+
+body > img {
+  margin: 0 10px;
+}
+
+poster {
+  border-radius: 20px;
+}
+
+img {
+  max-height: 280px;
+  border-radius: 20px;
+}
